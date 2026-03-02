@@ -46,8 +46,9 @@ export async function getCursorUsage(): Promise<CursorUsage | null> {
     let percent = 0;
     if (limitCents > 0) {
       percent = (usedCents / limitCents) * 100;
-    } else if (plan.totalPercentUsed) {
-      percent = plan.totalPercentUsed * 100;
+    } else if (typeof plan.totalPercentUsed === 'number') {
+      // API returns percentage directly (e.g. 0.6 = 0.6%)
+      percent = plan.totalPercentUsed;
     }
 
     // Fast requests (legacy or specific plans)

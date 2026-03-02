@@ -11,7 +11,7 @@ const program = new Command();
 program
   .name('tlens')
   .description('Check token usage for Cursor and other AI providers')
-  .version('0.1.0');
+  .version('0.1.1');
 
 program.addCommand(statusCommand);
 program.addCommand(configCommand);

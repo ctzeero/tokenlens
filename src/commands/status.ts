@@ -60,7 +60,7 @@ export const statusCommand = new Command('status')
         process.env.DEBUG = 'true';
     }
     console.log(renderLogo());
-    console.log(chalk.blue.bold('TokenLens v0.1.0'));
+    console.log(chalk.blue.bold('TokenLens v0.1.1'));
     console.log('');
     console.log(chalk.gray('Checking providers...'));
     console.log('');
