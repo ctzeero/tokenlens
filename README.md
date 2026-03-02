@@ -33,6 +33,11 @@ brew tap ctzeero/tap
 brew install tokenlens
 ```
 
+To upgrade to the latest version:
+```bash
+brew upgrade tokenlens
+```
+
 The CLI is installed as `tlens`. If you have trouble (e.g. formula not found or outdated), run `brew update` first, then try again.
 
 ### From Source
