@@ -2,14 +2,14 @@
 <p align="center">
   <picture>
     <img
-      src="https://github.com/user-attachments/assets/c48aa57f-73ee-4950-ba92-7c9bbf03754e"
+      src="https://github.com/user-attachments/assets/0f95ca6e-7de5-4c6d-9772-d75c1a8e03de"
       alt="dev"
     >
   </picture>
 </p>
 
 A CLI tool to check token usage for Cursor and other AI providers.
-<img width="732" height="305" alt="Screenshot 2026-02-28 at 4 11 03 PM" src="https://github.com/user-attachments/assets/b166254a-2ff3-49dd-879f-3505c7be48c8" />
+<img width="732" height="305" alt="Screenshot 2026-02-28 at 4 11 03 PM" src="https://github.com/user-attachments/assets/5ebba878-c024-4e87-a71b-a3143d39f64c" />
 
 ## Features
 
